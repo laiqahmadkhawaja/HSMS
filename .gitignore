@@ -1,0 +1,21 @@
+# Environment and System
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+
+# IDE & Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Test session artifacts
+*test_cookie*.txt
+
+# Ignore customer uploaded test docs except gitkeep
+uploads/documents/*
+uploads/attachments/*
+uploads/customers/*
+!uploads/**/.gitkeep
